@@ -1,7 +1,14 @@
 ---
-title: "My Website"
+title: "Distribución normal - Calculadora"
 ---
 
-Hello, Website!
+```{r include = FALSE}
+library(shiny)
+```
 
-## ¡Bienvenidos a esta página web!
+En esta calculadora podrás hacer todos los cálculos posibles sobre la distribución normal sin necesidad de usar tablas.
+
+```{r echo = FALSE}
+actionButton("button", "An action button")
+```
+
